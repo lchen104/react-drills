@@ -8,14 +8,14 @@ function Arrays() {
         { name: "Fido", age: 5 },
       ];
 
-      const dogJSX = dogs.map(dog => {
+    const dogJSX = dogs.map(dog => {
         return (
             <div>
                 <h2> {dog.name} </h2>
                 <p> {dog.age} </p>
             </div>
         )
-      })
+    })
 
 
     return (
